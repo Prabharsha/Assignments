@@ -4,8 +4,80 @@
     <meta charset="UTF-8">
     <link rel="stylesheet" href="assets/styles/normalize.css">
     <title>Assignment 01 | case 02</title>
+    <style>
+        header{
+            position:  relative;
+            height: 70px;
+            box-shadow:-2px 5px 10px -3px black;
+            border-width: 2px;
+            border-color: black;
+        }
+        header>img{
+            width: 200px;
+            margin: 19px;
+        }
+        header>ul{
+            position: absolute;
+            right: 35px;
+            bottom: 0;
+            font-size: 23px;
+            color: black;
+        }
+        header>ul>li{
+            padding: 0 9px 0 9px;
+            display: inline;
+        }
+        main>section{
+            background-color: black;
+            position: absolute;
+            left: 0;
+            width: 400px;
+            height: 500px;
+        }
+        main>nav>ul{
+           color: red;
+            z-index: 2;
+            position:absolute;
+            left: 0;
+            top: 50px;
+
+        }
+    </style>
+
 </head>
 <body>
+<header>
+ <img alt="" src="assets/images/ijselogo.png">
+
+    <ul>
+        <li>Home</li>
+        <li>Services</li>
+        <li>Contacts</li>
+        <li>About Us</li>
+    </ul>
+</header>
+<main>
+    <nav>
+        <ul>
+            <li>Home</li>
+            <li>Services</li>
+            <li>About Us</li>
+            <li>Contact</li>
+        </ul>
+    </nav>
+    <section>
+        section 01
+        <div></div>
+        <div></div>
+        <div></div>
+        <section>
+            Section 02
+        </section>
+
+    </section>
+
+</main>
+
 
 </body>
 </html>
