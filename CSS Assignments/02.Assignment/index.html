@@ -2,27 +2,28 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="assets/styles/normalize.css">
+    <link rel="stylesheet" href="assets/css/normalize.css">
     <link href="https://fonts.googleapis.com" rel="preconnect">
     <link crossorigin href="https://fonts.gstatic.com" rel="preconnect">
     <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    <link href="assets/css/fonts/css/all.css" rel="stylesheet">
     <title>Assignment 01 | case 02</title>
     <style>
         /*Header*/
         header{
             position:  relative;
-            height: 70px;
-            box-shadow:-2px 5px 10px -3px black;
+            height: 78px;
+            box-shadow:-2px 6px 9px -4px black;
         }
         header>img{
-            width: 200px;
+            width: 180px;
             margin: 19px;
         }
         header>ul{
             position: absolute;
             right: 35px;
             bottom: 0;
-            font-size: 27px;
+            font-size: 24px;
             color: #192a56;
             font-family:'Lobster',cursive;
         }
@@ -30,27 +31,45 @@
             padding: 0 9px 0 9px;
             display: inline-block;
         }
+        header>ul>li:hover{
+            cursor: pointer;
+            color: red;
+        }
         /*End Of Header*/
 
         /*main Body*/
+        body>main{
+            position: relative;
+        }
         main>section{
-            background-color: navy;
+         background-color: navy;
+            width: 270px;
             position: absolute;
-            left: 0;
+            color: white;
             bottom: 0;
             top: 0;
-            width: 400px;
 
         }
         main>nav>ul{
-            color: red;
+            color: whitesmoke;
             z-index: 2;
             position:absolute;
-            padding: 100px 50px 100px 100px;
             left: 0;
-            top: 50px;
+        }
+        main>nav>ul{
+            list-style:none;
+            font-family: Consolas,fantasy;
+            font-size: 26px;
+            margin-top: 40px;
+        }
+        main>nav>ul>li{
+            padding-bottom: 40px;
+        }
+        main>nav>ul>li>a{
+            margin-left: 15px;
 
         }
+
     </style>
 
 </head>
@@ -68,19 +87,17 @@
 <main>
     <nav>
         <ul>
-            <li>Home</li>
-            <li>Services</li>
-            <li>About Us</li>
-            <li>Contact</li>
+            <li><i class="fas fa-home"></i>Home</li>
+            <li><i class="fas fa-globe"></i>Services</li>
+            <li><i class="fas fa-id-badge"></i> Contact</li>
+            <li><i class="fas fa-info-circle"></i> About Us</li>
         </ul>
     </nav>
     <section>
-        section 01
         <div></div>
         <div></div>
         <div></div>
         <section>
-            Section 02
         </section>
 
     </section>
