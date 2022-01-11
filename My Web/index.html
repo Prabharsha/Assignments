@@ -1,46 +1,199 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns:position="http://www.w3.org/1999/xhtml">
 <head>
-    <meta charset="UTF-8">
-    <title>HTML Structure | Sample</title>
+    <title>Prabharsha | Web </title>
+
+    <meta content="Prabharsha,Pansilu" name="keyword">
+    <meta content="This is for my portfolio" name="description">
+
+    <meta content="width=device-width initial-scale=1" name="viewport">
+
+    <!--font pre connect-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@532&display=swap" rel="stylesheet">
+
+    <link href="assets/css/normalize.css" rel="stylesheet">
+    <link href="assets/css/fonts/css/all.css" rel="stylesheet">
+
+    <style>
+        html{
+            scroll-behavior: smooth;
+        }
+        header {
+            position: sticky;
+            top: 2px;
+            height: 60px;
+            box-shadow: 4px 5px 10px -4px black;
+            border-color: black;
+            border-width: 5px;
+            border-radius: 10px;
+            color: transparent;
+            z-index: 30;
+
+        }
+
+        header > nav > h2 {
+            position: absolute;
+            left: 30px;
+            top: -2px;
+            font-size: 25px;
+            color: #192a56;
+            font-family: Quicksand;
+        }
+
+        header > nav > ul {
+            position: absolute;
+            right: 30px;
+            top: 0;
+            font-size: 20px;
+            font-family: Quicksand;
+            list-style: none;
+            color: #130f40;
+        }
+
+        header > nav > ul > li {
+            padding: 0 7px 0 7px;
+            display: inline-block;
+        }
+
+        /*End Of the header*/
+
+        /*WelcomePage*/
+        #WelcomePage {
+            width: 100%;
+            height: 700px;
+            background: linear-gradient(to bottom, #0a0a0a, #222222, #393939, #515151, #6a6a6a, #7b7b7b, #8d8d8d, #9f9f9f, #acacac, #bababa, #c8c8c8, #d6d6d6);;
+        }
+
+
+
+        #Wh1 {
+            position: absolute;
+            right: 100px;
+            top: 90px;
+            color: #fff61c;
+            font-size: 75px;
+            font-family: Quicksand;
+        }
+        #ProfilePic {
+            position: relative;
+            left: 77px;
+            top: 47px;
+            z-index: 4;
+        }
+
+        #WelcomePage :nth-child(1){
+            position: absolute;
+            left: 65PX;
+            top: 95px;
+            z-index: 3;
+            background-color: #b4b4b4;
+            width: 396px;
+            height: 570px;
+        }
+
+        #WelcomePage :nth-child(2) {
+            position: absolute;
+            left: 55px;
+            top: 85px;
+            z-index: 2;
+            background-color: #232323;
+            width: 396px;
+            height: 570px;
+        }
+        #WelcomePage :nth-child(3) {
+            position: absolute;
+            left: 45px;
+            top: 75px;
+            background-color: #111111;
+            width: 396px;
+            height: 570px;
+        }
+        #WelcomePage :nth-child(4){
+            position: absolute;
+            left: 10px;
+            top: -5px;
+            width: 12px;
+            height: 760px;
+            border-radius: 15px;
+            background: linear-gradient(to bottom, #ff0000, #ff5900, #ff8400, #ffa800, #fdc91b, #f9d52d, #f6e03e, #f2eb4e, #ede647, #e9e241, #e4dd3a, #e0d932);
+        }
+        #WelcomePage :nth-child(5){
+            position: absolute;
+            right: 0px;
+            top: 260px;
+            width: 1030px;
+            height: 12px;
+            border-radius: 15px;
+            background: linear-gradient(to left, #ff0000, #ff5900, #ff8400, #ffa800, #fdc91b, #f9d52d, #f6e03e, #f2eb4e, #ede647, #e9e241, #e4dd3a, #e0d932);;
+        }
+
+
+        /*footer*/
+        #footer {
+            position: absolute;
+            bottom: 0px;
+        }
+
+    </style>
 </head>
 
 <body>
 
 <header>
     <nav>
-
+        <h2 ID="NameTop">Prabharsha257.com</h2>
+        <ul>
+            <li> Home</li>
+            <li> About Me</li>
+            <li> Education</li>
+            <li> Skills</li>
+            <li> My Works</li>
+            <li> Activities</li>
+            <li> Contacts</li>
+        </ul>
     </nav>
 </header>
 <main>
-    <section>
+    <section ID="WelcomePage">
+        <dev>
+            <!--profile pic back 1-->
+        </dev>
+
+        <dev>
+            <!--profile pic back 2-->
+        </dev>
+
+        <dev>
+            <!--profile pic back 3-->
+        </dev>
+        <dev>
+            <!--this is left Conner gradient line-->
+        </dev>
+
+        <dev>
+            <!--this is gradient underline-->
+        </dev>
         <!--This is Welcome Page-->
-        <aside>
-           <img class="fit-picture"
-           src="assets/images/pPhoto.png" width=820 height=802>
-            <nav>
-                <!--This is for web links-->
-            </nav>
-        </aside>
-        <aside>
-            <dd>
-                <h2>Welcome Here.!</h2>
-            </dd>
-            <dd>
-                <h2>I'm Prabharsha, A Full stack Developer.</h2>
-            </dd>
-            <dd>
-                <h3>Let's see More Stories.!</h3>
-            </dd>
-        </aside>
+        <img ID="ProfilePic"
+             height="570" src="assets/images/lrmExport.jpeg" width="396">
+        <nav>
+            <!--This is for web links-->
+        </nav>
+
+        <h2 ID="Wh1">Welcome Here.!</h2>
+        <h2 ID="Wh2">I'm Prabharsha, A Full stack Developer.</h2>
+        <h3 ID="Wh3">Let's see More Stories.!</h3>
+
 
     </section>
 
-    <section>
+    <section ID="About Me">
         <!--This is about me Section-->
     </section>
 
-    <section>
+    <section ID="Education">
         <!--This is Education Section-->
     </section>
 
@@ -63,7 +216,7 @@
 </main>
 
 </body>
-<footer>
+<footer ID="footer">
     <h3>This Footer</h3>
 </footer>
 </html>
