@@ -6,7 +6,9 @@
 > The following content have the information about my own website which consist of My personal details.
 
 <ul>
-<li style="font-size: 17px"><b>Site Map URL</b> :- <a href="https://www.gloomaps.com/2wkwMRfNF7" target="_blank">https://www.gloomaps.com/pXmsmrHeFZ</a></li>
+<li style="font-size: 17px"><b>Site Map UR Of My Web</b> :- <a href="https://www.gloomaps.com/2wkwMRfNF7" target="_blank">https://www.gloomaps.com/pXmsmrHeFZ</a></li>
+<br>
+<li style="font-size: 17px"><b>Wireframe URL Of My Web</b> :- <a href="https://www.gloomaps.com/2wkwMRfNF7" target="_blank">https://www.gloomaps.com/pXmsmrHeFZ</a></li>
 <br>
 <li style="font-size: 17px"><b>Site Map URL</b> :- <a href="https://www.gloomaps.com/2wkwMRfNF7" target="_blank">https://www.gloomaps.com/pXmsmrHeFZ</a></li>
 
