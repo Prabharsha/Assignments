@@ -65,9 +65,12 @@
 
         /*WelcomePage*/
         #WelcomePage {
+            position: relative;
             width: 100%;
             height: 700px;
-            background: linear-gradient(to bottom, #0a0a0a, #222222, #393939, #515151, #6a6a6a, #7e7e7e, #939393, #a9a9a9, #bebebe, #d3d3d3, #e9e9e9, #ffffff);}
+            background: linear-gradient(to bottom, #0a0a0a, #282829, #464647, #676667, #898889, #9e9d9e, #b4b3b4, #cbc9ca, #d8d6d7, #e4e4e5, #f2f1f2, #ffffff);
+
+        }
 
         #ProfilePic {
             position: relative;
@@ -75,11 +78,12 @@
             top: 47px;
             z-index: 4;
         }
-        #scrollImg{
+
+        #scrollImg {
             opacity: 70%;
             position: absolute;
-            right: 700px;
-            bottom: -10px;
+            right: 750px;
+            bottom: 5px;
             width: 50px;
             height: 50px;
 
@@ -177,8 +181,9 @@
             font-size: 75px;
             font-family: Quicksand;
         }
-        #Wh2{
-            text-shadow:5px 3px 8px black ;
+
+        #Wh2 {
+            text-shadow: 5px 3px 8px black;
             position: absolute;
             right: 272px;
             top: 599px;
@@ -195,6 +200,59 @@
             color: #000d4f;
             font-size: 45px;
             font-family: Quicksand;
+        }
+
+        #linkedIn {
+            position: absolute;
+            bottom: 15px;
+            left: 132px;
+            height: 45px;
+            width: 45px;
+        }
+
+        #github {
+            bottom: 5px;
+            left: 187px;
+            position: absolute;
+            height: 60px;
+            width: 60px;
+        }
+
+        #gmail {
+            position: absolute;
+            bottom: 5px;
+            left: 258px;
+            height: 60px;
+            width: 60px;
+        }
+
+        #fiverr {
+            position: absolute;
+            bottom: 15px;
+            left: 330px;
+            height: 50px;
+            width: 50px;
+        }
+
+    /*about me page*/
+        #AboutMe{
+
+            margin: auto;
+            height: 800px;
+            width: 100%;
+
+
+        }
+        #AboutMe>div:nth-child(1){
+            margin: auto;
+            position: relative;
+            z-index: 2;
+            top: 0px;
+            width: 500px;
+            height: 15px;
+            /*border-radius: 40px;*/
+            background-color: #ff0000;
+
         }
 
 
@@ -225,24 +283,26 @@
 </header>
 <main>
     <section ID="WelcomePage">
-        <dev><!--profile pic back 1--></dev>
-        <dev><!--profile pic back 2--></dev>
-        <dev><!--profile pic back 3--></dev>
+        <div><!--profile pic back 1--></div>
+        <div><!--profile pic back 2--></div>
+        <div><!--profile pic back 3--></div>
 
-        <dev><!--this is left Conner gradient line 4--></dev>
-        <dev><!--this is gradient underline 5--></dev>
+        <div><!--this is left Conner gradient line 4--></div>
+        <div><!--this is gradient underline 5--></div>
 
-        <dev><!--yellow circle 6--></dev>
-        <dev><!--pink circle 7--></dev>
-        <dev><!--gray circle 8--></dev>
+        <div><!--yellow circle 6--></div>
+        <div><!--pink circle 7--></div>
+        <div><!--gray circle 8--></div>
 
 
         <img ID="ProfilePic"
              height="570" src="assets/images/lrmExport.jpeg" width="396">
         <img ID="scrollImg" src="assets/images/scroll.gif">
-        <nav>
-            <!--This is for web links-->
-        </nav>
+
+        <img ID="linkedIn" src="assets/icons/linkedIn.gif">
+        <img ID="github" src="assets/icons/gitHub.gif">
+        <img ID="gmail" src="assets/icons/gmail.gif">
+        <img ID="fiverr" src="assets/icons/fiverrr.gif">
 
         <h2 ID="Wh1">Welcome</h2>
         <pre ID="WPt1">
@@ -253,9 +313,10 @@
 
 
     </section>
-
-    <section ID="About Me">
+    <hr>
+    <section ID="AboutMe">
         <!--This is about me Section-->
+        <div><!--gray line--></div>
     </section>
 
     <section ID="Education">
@@ -281,7 +342,5 @@
 </main>
 
 </body>
-<footer ID="footer">
-    <h3>This Footer</h3>
-</footer>
+
 </html>
